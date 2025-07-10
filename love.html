@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Любовна відкритка 💖</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    #card {
+      display: none;
+      text-align: center;
+      animation: fadeIn 2s forwards;
+    }
+
+    h1 {
+      color: #d63384;
+      font-size: 2.5em;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    .heart {
+      font-size: 4em;
+      animation: pulse 1.5s infinite;
+      margin-bottom: 20px;
+    }
+
+    #open-btn {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    #open-btn:hover {
+      background-color: #ff85c1;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <button id="open-btn">🌸 Розкрити</button>
+
+  <div id="card">
+    <div class="heart">❤️</div>
+    <h1>Кохана Альбіна!</h1>
+    <p>
+      Я написав цю відкритку для тебе 💌<br>
+      Ти дуже дорога мені 🌹<br>
+      Люблю тебе сильно 😽
+    </p>
+  </div>
+
+  <script>
+    const button = document.getElementById('open-btn');
+    const card = document.getElementById('card');
+
+    button.addEventListener('click', () => {
+      button.style.display = 'none';
+      card.style.display = 'block';
+    });
+  </script>
+
+</body>
+</html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- ДОДАНО -->
+  <title>Любовна відкритка 💖</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #d63384;
+      font-size: 2.2em; /* було 2.5em */
+    }
+
+    p {
+      font-size: 1.3em; /* було 1.2em */
+      color: #333;
+    }
+
+    .heart {
+      font-size: 4.5em; /* більше сердечко */
+      animation: pulse 1.5s infinite;
+      margin-bottom: 20px;
+    }
+
+    #open-btn {
+      padding: 15px 30px;
+      font-size: 1.3em; /* трохи більший текст */
+      background-color: #ff69b4;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    #open-btn:hover {
+      background-color: #ff85c1;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
